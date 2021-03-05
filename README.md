@@ -15,26 +15,26 @@
 
 ## Utilitários
 - Imagens:
-[Gabriel Baranski](https://unsplash.com/@baranskito?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-[Theme Inn](https://unsplash.com/@themeinn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-[Karl Fredrickson](https://unsplash.com/@kfred?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-[Ramin Talebi](https://unsplash.com/@rawmintalebi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-[Janko Ferlic](https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-crianca-695954/)
-[AJ Nakasone](https://www.pexels.com/pt-br/foto/adoravel-atraente-beleza-bonita-1707245/)
-[Skyler Ewing](https://www.pexels.com/pt-br/foto/adoravel-atraente-beleza-bonita-1707245/)
+[Gabriel Baranski](https://unsplash.com/@baranskito?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
+[Theme Inn](https://unsplash.com/@themeinn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
+[Karl Fredrickson](https://unsplash.com/@kfred?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
+[Ramin Talebi](https://unsplash.com/@rawmintalebi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
+[Janko Ferlic](https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-crianca-695954/)<br/>
+[AJ Nakasone](https://www.pexels.com/pt-br/foto/adoravel-atraente-beleza-bonita-1707245/)<br/>
+[Skyler Ewing](https://www.pexels.com/pt-br/foto/adoravel-atraente-beleza-bonita-1707245/)<br/>
 [FreePNGImg](FreePNGImg.com)
 
 - Favicon:
 [Freepik](https://www.freepik.com)
 
 - Icones:
-[Freepik](https://www.flaticon.com/authors/freepik)
+[Freepik](https://www.flaticon.com/authors/freepik)<br/>
 [Icongeek26](https://www.flaticon.com/free-icon/ball_3169533 term=toys&page=2&position=39&related_item_id=3169533)
 
 
 - Fontes:  
-[Pangolin](https://fonts.google.com/specimen/Pangolin)
-[Nerko One](https://fonts.google.com/specimen/Nerko+One)
+[Pangolin](https://fonts.google.com/specimen/Pangolin)<br/>
+[Nerko One](https://fonts.google.com/specimen/Nerko+One)<br/>
 [Poppins](https://fonts.google.com/specimen/Poppins)
 
 
