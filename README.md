@@ -29,7 +29,7 @@
 
 - Icones:
 [Freepik](https://www.flaticon.com/authors/freepik)<br/>
-[Icongeek26](https://www.flaticon.com/free-icon/ball_3169533 term=toys&page=2&position=39&related_item_id=3169533)
+[Icongeek26](https://www.flaticon.com/free-icon/ball_3169533term=toys&page=2&position=39&related_item_id=3169533)
 
 
 - Fontes:  
