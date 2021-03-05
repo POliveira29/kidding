@@ -1,0 +1,41 @@
+.u-scroll--disabled {
+  overflow-y: hidden;
+}
+
+.hero__nav-item--active::before {
+  content: "";
+  position: absolute;
+  background: url(../assets/active-navbar-item.png) no-repeat;
+  bottom: -16px;
+  width: 270px;
+  height: 22px;
+}
+
+/* Animation Hamburger Menu */
+
+.hero__nav--active {
+  transform: translate(0, 0);
+}
+
+.hero__nav--active .hero__menu-bar {
+  background-color: var(--clr-accent1);
+}
+
+.hero__nav--active .bar1 {
+  transform: translateY(10px) rotateZ(-45deg);
+}
+.hero__nav--active .bar3 {
+  transform: translateY(-14px) rotate(45deg);
+}
+.hero__nav--active .bar2 {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__nav-items {
+    align-items: center;
+  }
+  .hero__nav-item--active::before {
+    width: 150px;
+  }
+}

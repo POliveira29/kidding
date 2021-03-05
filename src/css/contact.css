@@ -1,0 +1,196 @@
+.contact-us {
+  padding: 1rem;
+}
+.contact-us__title {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+/* Flamingo ===========================*/
+.flamingo {
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 260px;
+}
+.flamingo__head {
+  width: 90px;
+  height: 90px;
+  background-color: #e91e63;
+  border-radius: 50%;
+}
+.flamingo__head:before {
+  content: "";
+  position: absolute;
+}
+.flamingo__face {
+  width: 70px;
+  height: 60px;
+  transform: translate(-10px, 25px);
+  background-color: pink;
+  border-radius: 50%;
+}
+.flamingo__left-eye,
+.flamingo__right-eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.flamingo__left-eye {
+  position: absolute;
+  transform: translate(0px, -5px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid pink;
+  background-color: #fff;
+}
+.flamingo__left-eye:before,
+.flamingo__right-eye:after {
+  content: "";
+  position: absolute;
+  transform: translate(0px, -15px);
+  width: 21px;
+  height: 10px;
+  background-color: pink;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  z-index: 1;
+  animation: eyelidBlink 5s infinite;
+}
+.flamingo__right-eye {
+  position: absolute;
+  transform: translate(24px, -5px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid pink;
+  background-color: #fff;
+}
+.flamingo__pupil {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #000;
+  animation: eyesMoving 4s ease-in-out 0.1s infinite alternate;
+}
+.flamingo__pupil:after {
+  content: "";
+  position: absolute;
+  transform: translate(6px, 0px);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.flamingo__nose {
+  width: 50px;
+  height: 35px;
+  position: absolute;
+  transform: translate(-21px, 17px);
+  background-color: #000;
+  border-radius: 32px;
+}
+.flamingo__nose:before {
+  content: "";
+  position: absolute;
+  transform: rotate(145deg);
+  top: 5px;
+  left: -15px;
+  width: 50px;
+  height: 35px;
+  border-radius: 32px;
+  background-color: #000;
+}
+.flamingo__neck {
+  height: 160px;
+  width: 340px;
+  top: 70px;
+  left: -65px;
+  position: absolute;
+  border-radius: 100% 0px 0px;
+  border-top: 40px solid #e91e63;
+  border-left: 40px solid #e91e63;
+  transform: scale(0.4) rotate(-88deg);
+}
+
+/* Animation Eyes Flamingo  =============*/
+@keyframes eyesMoving {
+  0% {
+  }
+  25% {
+    transform: translate(-5px, 3px);
+  }
+  50% {
+    transform: translatex(0px);
+  }
+  75% {
+  }
+  100% {
+  }
+}
+
+@keyframes eyelidBlink {
+  0%,
+  100% {
+    height: 30px;
+  }
+  5%,
+  95% {
+    height: 0px;
+  }
+}
+
+.contact-us__description {
+  text-align: center;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: var(--clr-terciary);
+}
+.input {
+  padding: 1rem;
+  border: none;
+  border-bottom: 2px solid var(--clr-terciary);
+  background-color: #fff;
+  resize: none;
+}
+
+.input:focus {
+  border-top: 1px solid var(--clr-terciary);
+  border-left: 1px solid var(--clr-terciary);
+  border-right: 1px solid var(--clr-terciary);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1.5rem 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  background-color: var(--clr-terciary);
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

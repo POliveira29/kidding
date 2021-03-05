@@ -1,0 +1,181 @@
+/* -- Titles -- */
+.title {
+  font-family: var(--font-title);
+  color: var(--clr-terciary);
+  margin: 0;
+}
+
+.header__title {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  top: 200px;
+  z-index: 0;
+}
+
+.header__title::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 30% 70% 70% 30% / 30% 45% 55% 70%;
+  background-color: var(--clr-secondary);
+  animation: morph 8s ease-in-out infinite both alternate;
+  z-index: -1;
+}
+
+.title-size-sm {
+  font-size: 2rem;
+}
+
+.title-size-md {
+  font-size: 3rem;
+}
+
+.title-size-lg {
+  font-size: 6rem;
+}
+
+.description {
+  text-align: center;
+  color: #fff;
+}
+
+/* -- Button -- */
+
+.btn-primary {
+  padding: 1rem 2rem;
+  font-family: var(--font-text);
+  text-transform: uppercase;
+  background-color: var(--clr-terciary);
+  border-radius: 32px;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  -webkit-mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+  mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png);
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+  background-color: #fff;
+  color: var(--clr-terciary);
+}
+
+.btn-back-to-top {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--clr-terciary);
+  z-index: 9999;
+}
+
+.btn-back-to-top::before {
+  content: "\f077";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: var(--space-md);
+  color: var(--clr-accent1);
+}
+
+/* -- Image -- */
+
+.img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+/* -- Footer -- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--space-md);
+  background-color: var(--clr-primary);
+}
+
+.footer__nav {
+  width: 70%;
+  padding: 1em 0;
+}
+
+.footer__nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__social-media {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  width: 45px;
+  height: 45px;
+  background-color: var(--clr-terciary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  color: #fff;
+}
+
+.social-media--fb::before {
+  content: "\f39e";
+}
+
+.social-media--instagram::before {
+  content: "\f16d";
+}
+
+.social-media--twitter::before {
+  content: "\f099";
+}
+
+.footer__social-media > a .fab {
+  margin: 0 var(--space-md);
+  padding: var(--space) 0;
+  color: #fff;
+}
+
+.footer__copyright {
+  padding: var(--space-md) 0;
+  color: #fff;
+}
+
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@keyframes morph {
+  0% {
+    transform: rotate(1turn);
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
+}

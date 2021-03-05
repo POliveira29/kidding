@@ -1,0 +1,61 @@
+:root {
+  /*Spacing*/
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space: 24px;
+  --space-md: 32px;
+  --space-lg: 48px;
+  --space-xlg: 64px;
+
+  /*Colors*/
+  --clr-primary: #1ba8e7;
+  --clr-secondary: #ddb34e;
+  --clr-terciary: #ea312b;
+  --clr-accent1: #f9f2f6;
+  --clr-accent2: #acbdba;
+  /*--clr-primary: #d92332;
+  --clr-secondary: #03588c;
+  --clr-accent1: #f2c230;
+  --clr-accent2: #f2ede4;*/
+
+  /*Typography*/
+  --font-title: "Nerko One", cursive;
+  --font-text: "Poppins", sans-serif;
+
+  --base-font-size: 16px;
+}
+
+@font-face {
+  font-family: "aAlloyInk";
+  src: url("../../assets/fonts/AlloyInk-nRLyO.ttf");
+  src: url("../../assets/fonts/AlloyInk-lgdWw.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  font-family: var(--font-text);
+}
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: 14px;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+:focus {
+  outline: none;
+}
