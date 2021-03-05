@@ -14,7 +14,7 @@
 ## 🎨 Layout
 
 ## Utilitários
-- Imagens:
+- Imagens:<br/>
 [Gabriel Baranski](https://unsplash.com/@baranskito?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
 [Theme Inn](https://unsplash.com/@themeinn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
 [Karl Fredrickson](https://unsplash.com/@kfred?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)<br/>
@@ -24,15 +24,15 @@
 [Skyler Ewing](https://www.pexels.com/pt-br/foto/adoravel-atraente-beleza-bonita-1707245/)<br/>
 [FreePNGImg](FreePNGImg.com)
 
-- Favicon:
+- Favicon:<br/>
 [Freepik](https://www.freepik.com)
 
-- Icones:
+- Icones:<br/>
 [Freepik](https://www.flaticon.com/authors/freepik)<br/>
 [Icongeek26](https://www.flaticon.com/free-icon/ball_3169533term=toys&page=2&position=39&related_item_id=3169533)
 
 
-- Fontes:  
+- Fontes:<br/>
 [Pangolin](https://fonts.google.com/specimen/Pangolin)<br/>
 [Nerko One](https://fonts.google.com/specimen/Nerko+One)<br/>
 [Poppins](https://fonts.google.com/specimen/Poppins)
